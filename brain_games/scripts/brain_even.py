@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from random import randint
 import prompt
 
@@ -13,7 +15,7 @@ def main():
         if i == 3:
             print(f'Congratulations, {name}!')
             break
-        x = randint(1,100)
+        x = randint(1, 100)
         print(f'Question:{x}')
         print('Your answer:', end='')
         answer = input()
@@ -31,7 +33,6 @@ def main():
             print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'")
             print(f"Let's try again, {name}!")
             break
-    
     
 
 if __name__ == '__main__':
