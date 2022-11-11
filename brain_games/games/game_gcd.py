@@ -19,4 +19,3 @@ def question_game():
     x = f'{num1} {num2}'
     y = result
     return [x, y]
-
