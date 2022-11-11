@@ -4,4 +4,5 @@
 brain_even: https://asciinema.org/a/hL2fFMKi2MSlhTNu7XqOAAAu9
 brain_calc: https://asciinema.org/a/OwUHkDOFf2zyqgSPcoZrNGdzv
 brain_gcd: https://asciinema.org/a/p9yzco34hLGHfs8oAsgBv8kJd
-brain-progression: https://asciinema.org/a/DYBALIcs5GvsJUgTTwVg7bPhC
+brain_progression: https://asciinema.org/a/DYBALIcs5GvsJUgTTwVg7bPhC
+brain_prime: https://asciinema.org/a/rcpr6dWTcyEKeJ4izLMxotrqD
