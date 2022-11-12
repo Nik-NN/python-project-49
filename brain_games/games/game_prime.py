@@ -1,6 +1,8 @@
 from random import randint
 
+
 text_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def prime(num):
     i = 2

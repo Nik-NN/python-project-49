@@ -1,6 +1,8 @@
 from random import randint
 
+
 text_game = 'What number is missing in the progression?'
+
 
 def progression():
     progression_list = []
@@ -15,6 +17,7 @@ def progression():
     j = progression_list[hidden_element]
     progression_list[hidden_element] = '..'
     return [progression_list, j]
+
 
 def question_game():
     [question, answer] = progression()

@@ -1,5 +1,6 @@
 from random import randint
 
+
 text_game = 'Find the greatest common divisor of given numbers.'
 
 
@@ -11,6 +12,7 @@ def gcd(num1, num2):
             break
         else:
             i -= 1
+
 
 def question_game():
     num1 = randint(1, 50)
