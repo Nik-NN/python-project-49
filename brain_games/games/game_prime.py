@@ -2,16 +2,16 @@ from random import randint
 
 text_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-def func1(num):
+def prime(num):
     i = 2
-    k = 0
+    divisor_counter = 0
     while i <= num:
         if num % i == 0:
-            k += 1
+            divisor_counter += 1
             i += 1
         else:
             i += 1
-    if k == 1:
+    if divisor_counter == 1:
         return 'yes'
     else:
         return 'no'
@@ -19,6 +19,6 @@ def func1(num):
 
 def question_game():
     num1 = randint(2, 500)
-    x = func1(num1)
-    y = num1
-    return [y, x]
+    question = num1
+    answer = prime(num1)
+    return [question, answer]

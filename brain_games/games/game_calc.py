@@ -1,4 +1,4 @@
-from random import randint
+from random import randint 
 
 text_game = 'What is the result of the expression?'
 
@@ -7,6 +7,6 @@ def question_game():
     b = f'{randint(1, 100)} + {randint(1, 100)}'
     c = f'{randint(1, 10)} * {randint(1, 10)}'
     options = (a, b, c)
-    x = options[randint(0,2)]
-    y = eval(x)
-    return [x, y] 
+    question = options[randint(0,2)]
+    answer = eval(question)
+    return [question, answer] 

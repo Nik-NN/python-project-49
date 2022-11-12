@@ -15,7 +15,6 @@ def gcd(num1, num2):
 def question_game():
     num1 = randint(1, 50)
     num2 = randint(1, 50)
-    result = gcd(num1, num2)
-    x = f'{num1} {num2}'
-    y = result
-    return [x, y]
+    question = f'{num1} {num2}'
+    answer = gcd(num1, num2)
+    return [question, answer]

@@ -10,8 +10,7 @@ def even(num):
 
 
 def question_game():
-    num1 = randint(1, 100)
-    x = num1
-    y = even(num1)
-    return [x, y]
+    question = randint(1, 100)
+    answer = even(question)
+    return [question, answer]
 
