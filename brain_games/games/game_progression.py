@@ -21,4 +21,5 @@ def progression():
 
 def question_game():
     [question, answer] = progression()
-    return [question, answer]
+    return [str(question)[1:-1], answer]
+ 
