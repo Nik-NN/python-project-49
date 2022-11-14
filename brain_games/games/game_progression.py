@@ -8,7 +8,8 @@ def progression(num):
     progression_list = []
     i = 0
     stride_length = randint(1, 10)
-    while i < 10:
+    num2 = randint(6, 10)
+    while i < num2:
         progression_list.append(1 + num)
         i += 1
         num += stride_length
