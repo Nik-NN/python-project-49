@@ -23,4 +23,4 @@ def question_game():
     num = randint(1, 100)
     [question, answer] = progression(num)
 
-    return [question[1:-1], answer]
+    return [question.replace(",", "")[1:-1], answer]
