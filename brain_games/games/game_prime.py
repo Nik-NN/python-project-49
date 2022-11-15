@@ -17,6 +17,7 @@ def prime(num):
             return 'yes'
         i += 1
 
+
 def question_game():
     num1 = randint(2, 500)
     question = num1
