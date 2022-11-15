@@ -1,9 +1,6 @@
 <a name="readme-top"></a>
 
-<h3 align="center">Brain Games</h3>
-
-<h3 align="center"></h3>
-
+# Brain Games
   
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Nik-NN/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Nik-NN/python-project-49/actions)
