@@ -2,7 +2,7 @@ import prompt
 
 text_game_over = 'is wrong answer ;(. Correct answer was'
 
-
+    
 def engine(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
