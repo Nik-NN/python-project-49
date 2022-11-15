@@ -10,12 +10,11 @@ def prime(num):
     while i <= num:
         if num % i == 0:
             divisor_counter += 1
-        elif divisor_counter > 1:
-            return 'no'
-            break
-        elif i == num - 1 and divisor_counter == 0:
-            return 'yes'
         i += 1
+    if divisor_counter == 1:
+        return 'yes'
+    else:
+        return 'no'
 
 
 def question_game():
