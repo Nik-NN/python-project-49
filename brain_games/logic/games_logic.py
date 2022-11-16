@@ -9,10 +9,7 @@ def engine(game):
     print(f'Hello, {name}!')
     print(game.text_game)
     i = 0
-    while i < 4:
-        if i == 3:
-            print(f'Congratulations, {name}!')
-            break
+    while i < 3:
         [question_game, correct_answer] = game.question_game()
         print(f'Question: {question_game}')
         print('Your answer:', end='')
@@ -20,7 +17,8 @@ def engine(game):
         if answer == f'{correct_answer}':
             print('Correct!')
             i += 1
-        elif answer != f'{correct_answer}':
+        else:
             print(f"'{answer}' {text_game_over} '{correct_answer}'")
             print(f"Let's try again, {name}!")
             break
+        print(f'Congratulations, {name}!')
