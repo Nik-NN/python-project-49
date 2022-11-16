@@ -8,7 +8,6 @@ def question_game():
     a = f'{randint(1, 100)} - {randint(1, 100)}'
     b = f'{randint(1, 100)} + {randint(1, 100)}'
     c = f'{randint(1, 10)} * {randint(1, 10)}'
-    options = (a, b, c)
-    question = options[randint(0, 2)]
+    question = (a, b, c)[randint(0, 2)]
     answer = eval(question)
     return [question, answer]
