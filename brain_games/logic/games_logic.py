@@ -1,13 +1,12 @@
 import prompt
 
-text_game_over = 'is wrong answer ;(. Correct answer was'
-
 
 def engine(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.text_game)
+    text_game_over = 'is wrong answer ;(. Correct answer was'
     i = 0
     while i < 3:
         [question_game, correct_answer] = game.question_game()
