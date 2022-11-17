@@ -1,7 +1,7 @@
 from random import randint
 
 
-text_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def prime(num):
@@ -12,13 +12,17 @@ def prime(num):
             divisor_counter += 1
         i += 1
     if divisor_counter == 1:
-        return 'yes'
+        return True
     else:
-        return 'no'
+        return False
 
 
 def question_game():
     num1 = randint(2, 500)
     question = num1
-    answer = prime(num1)
-    return [question, answer]
+    answer = ''
+    if prime(num1) == True:
+        answer = 'yes'
+    else:
+        answer = 'no'
+    return question, answer

@@ -1,11 +1,11 @@
 import prompt
 
 
-def engine(game):
+def start_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.text_game)
+    print(game.RULE)
     text_game_over = 'is wrong answer ;(. Correct answer was'
     i = 0
     while i < 3:
