@@ -7,6 +7,19 @@
 <a href="https://codeclimate.com/github/Nik-NN/python-project-49/maintainability"><img
 src="https://api.codeclimate.com/v1/badges/6613a34a5986df38d122/maintainability" /></a>
 
+
+## Getting Started
+
+1. Clone the repo
+   ```
+   git clone https://github.com/Nik-NN/python-project-49.git
+   ```
+2. Install packages
+   ```
+   make package-install
+   ```
+
+   
 ## About The Project
 ### Brain games include five math games
 
@@ -35,17 +48,6 @@ The essence of the game is as follows: the user is shown a random number. And he
 The essence of the game is as follows: we show the user a series of numbers that form an arithmetic progression, replacing any of the numbers with two dots. The player must determine this number.
 
 <h3 align="center"><a href="https://asciinema.org/a/jRAVVT812cybdp4QZA3Qe1K0x" target="_blank"><img src="https://asciinema.org/a/jRAVVT812cybdp4QZA3Qe1K0x.svg" /></a></h3>
-
-## Getting Started
-
-1. Clone the repo
-   ```
-   git clone https://github.com/Nik-NN/python-project-49.git
-   ```
-2. Install packages
-   ```
-   make package-install
-   ```
 
 
 ## Usage
