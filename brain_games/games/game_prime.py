@@ -21,7 +21,7 @@ def question_game():
     num1 = randint(2, 500)
     question = num1
     answer = ''
-    if prime(num1) == True:
+    if prime(num1) is True:
         answer = 'yes'
     else:
         answer = 'no'

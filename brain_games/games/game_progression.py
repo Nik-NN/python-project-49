@@ -15,6 +15,7 @@ def progression():
         num += stride_length
     return progression_list
 
+
 def question_game():
     progression_list = progression()
     hidden_element_num = randint(0, 9)

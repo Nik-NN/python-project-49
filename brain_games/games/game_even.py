@@ -14,7 +14,7 @@ def even(num):
 def question_game():
     question = randint(1, 100)
     answer = ''
-    if even(question) == True:
+    if even(question) is True:
         answer = 'yes'
     else:
         answer = 'no'
