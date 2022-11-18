@@ -20,4 +20,5 @@ def start_game(game):
             print(f"'{answer}' {text_game_over} '{correct_answer}'")
             print(f"Let's try again, {name}!")
             break
+    if i == 3:
         print(f'Congratulations, {name}!')
