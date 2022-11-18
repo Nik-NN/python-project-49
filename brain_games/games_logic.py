@@ -6,7 +6,6 @@ def start_game(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.RULE)
-    text_game_over = 'is wrong answer ;(. Correct answer was'
     i = 0
     while i < 3:
         [question_game, correct_answer] = game.question_game()
@@ -17,8 +16,8 @@ def start_game(game):
             print('Correct!')
             i += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was "
-            f"{correct_answer}'")
+            print(f"'{answer}' is wrong answer "
+                  f";(. Correct answer was '{correct_answer}'")
             print(f"Let's try again, {name}!")
             break
     if i == 3:
