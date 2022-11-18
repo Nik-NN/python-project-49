@@ -20,7 +20,8 @@ src="https://api.codeclimate.com/v1/badges/6613a34a5986df38d122/maintainability"
    ```
 ## Requirements
 
-python (version 3.10)
+Python (version 3.10)
+
 Poetry (version 1.2.2)
    
 ## About The Project
