@@ -18,7 +18,10 @@ src="https://api.codeclimate.com/v1/badges/6613a34a5986df38d122/maintainability"
    ```
    make package-install
    ```
+## Requirements
 
+python (version 3.10)
+Poetry (version 1.2.2)
    
 ## About The Project
 ### Brain games include five math games
