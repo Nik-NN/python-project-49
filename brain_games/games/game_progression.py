@@ -23,5 +23,5 @@ def question_game():
     progression_list[hidden_element_num] = '..'
     question = progression_list
     question = [str(i) for i in question]
-    question = ', '.join(question)
+    question = ' '.join(question)
     return question, answer
