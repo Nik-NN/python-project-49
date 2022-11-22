@@ -3,7 +3,7 @@ import random
 RULE = 'What is the result of the expression?'
 
 
-def calc(num1, num2, operator):
+def calculate_expression(num1, num2, operator):
     if operator == '+':
         return num1 + num2
     elif operator == '-':
@@ -18,5 +18,5 @@ def question_game():
     operator_list = ['-', '+', '*']
     operator = random.choice(operator_list)
     question = f'{num1} {operator} {num2}'
-    answer = calc(num1, num2, operator)
+    answer = calculate_expression(num1, num2, operator)
     return question, answer

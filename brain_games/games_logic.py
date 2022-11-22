@@ -7,7 +7,8 @@ def start_game(game):
     print(f'Hello, {name}!')
     print(game.RULE)
     i = 0
-    while i < 3:
+    rounds = 3
+    while i < rounds:
         [question_game, correct_answer] = game.question_game()
         print(f'Question: {question_game}')
         print('Your answer:', end='')

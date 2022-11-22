@@ -4,7 +4,7 @@ from random import randint
 RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def even(num):
+def check_parity(num):
     if num % 2 == 0:
         return True
     else:
@@ -14,7 +14,7 @@ def even(num):
 def question_game():
     question = randint(1, 100)
     answer = ''
-    if even(question) is True:
+    if check_parity(question) is True:
         answer = 'yes'
     else:
         answer = 'no'
